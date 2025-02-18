@@ -2,11 +2,25 @@
   "name": "nextjs-starter-kit",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Nezam Aghda",
+    "url": "https://github.com/snezamha"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "eslint src --fix && pnpm format",
+    "lint:strict": "eslint --max-warnings=0 src",
+    "format": "prettier --write .",
+    "format:check": "prettier -c -w .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,tsx,ts,css,less,scss,sass}": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ]
   },
   "dependencies": {
     "@hookform/resolvers": "^4.1.0",
@@ -65,7 +79,12 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "husky": "^9.1.7",
     "postcss": "^8",
+    "prettier": "^3.5.1",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
