@@ -1,0 +1,49 @@
+{
+  "notFound": {
+    "somethingWentWrong": "مشکلی پیش آمده است",
+    "pageNotFound": "متاسفیم، صفحه‌ای که به دنبال آن هستید وجود ندارد یا منتقل شده است.",
+    "goBack": "بازگشت",
+    "backToHome": "بازگشت به خانه",
+    "accessPermission": "مجوز دسترسی",
+    "unauthorized": "غیر مجاز",
+    "tryAgain": "دوباره تلاش کنید"
+  },
+  "translationsManagement": {
+    "title": "مدیریت ترجمه‌ها",
+    "scopeLabel": "اسکوپ:",
+    "scopePlaceholder": "انتخاب اسکوپ",
+    "addScope": "افزودن اسکوپ جدید",
+    "deleteScope": "حذف اسکوپ",
+    "enterNewScopeName": "نام اسکوپ جدید را وارد کنید:",
+    "deleteScopeConfirmation": "آیا مطمئن هستید که می‌خواهید اسکوپ \"{scope}\" را حذف کنید؟",
+    "invalidScope": "اسکوپ نامعتبر است.",
+    "confirm": "تایید",
+    "cancel": "لغو",
+    "save": "ذخیره",
+    "translationsSaved": "ترجمه‌ها با موفقیت ذخیره شدند.",
+    "translationsSaveError": "خطا در ذخیره ترجمه‌ها رخ داد.",
+    "faLabel": "فارسی",
+    "enLabel": "انگلیسی",
+    "deLabel": "آلمانی",
+    "addKeyFor": "افزودن کلید جدید برای {language}",
+    "enterNewKeyForLocale": "کلید جدید برای زبان {locale} را وارد کنید:",
+    "deleteKey": "حذف",
+    "noScope": "لطفا یک اسکوپ انتخاب کنید یا اسکوپ جدید بسازید.",
+    "protectedScopeMessage": "این اسکوپ محافظت شده است و نمی‌تواند حذف شود.",
+    "protectedScopeKeyMessage": "این کلید به یک اسکوپ محافظت شده تعلق دارد و نمی‌تواند حذف شود."
+  },
+  "dashboardMenu": {
+    "dashboard": "داشبورد",
+    "settings": "تنظیمات",
+    "appearance": "ظاهر",
+    "translations": "ترجمه‌ها"
+  },
+  "appearance": {
+    "themeMode": "حالت تم",
+    "light": "روشن",
+    "dark": "تاریک",
+    "themes": "تم‌ها",
+    "radius": "شعاع",
+    "default": "پیش‌فرض"
+  }
+}
