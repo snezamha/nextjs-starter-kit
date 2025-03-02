@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, FormEvent } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { locales } from '@/config/locales';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
@@ -55,7 +55,8 @@ function SkeletonLoader() {
 export default function TranslationsForm() {
   const t = useTranslations('translationsManagement');
   const { toast } = useToast();
-
+  const defaultLocale = useLocale();
+  const [locale, setLocale] = useState(defaultLocale);
   const [availableScopes, setAvailableScopes] = useState<string[]>([]);
   const [scope, setScope] = useState<string>('');
   const [translationsMap, setTranslationsMap] = useState<TranslationsMap>(
@@ -409,15 +410,14 @@ export default function TranslationsForm() {
           <SkeletonLoader />
         ) : (
           <form onSubmit={handleSaveAll}>
-            <Tabs defaultValue={locales[0]}>
+            <Tabs
+              defaultValue={locale}
+              onValueChange={(value) => setLocale(value)}
+            >
               <TabsList className='mb-4 flex justify-center'>
-                {locales.map((locale) => (
-                  <TabsTrigger key={locale} value={locale}>
-                    {locale === 'fa'
-                      ? t('faLabel')
-                      : locale === 'en'
-                        ? t('enLabel')
-                        : t('deLabel')}
+                {locales.map((lang) => (
+                  <TabsTrigger key={lang} value={lang}>
+                    {lang.toUpperCase()}
                   </TabsTrigger>
                 ))}
               </TabsList>

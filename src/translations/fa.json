@@ -8,6 +8,26 @@
     "unauthorized": "غیر مجاز",
     "tryAgain": "دوباره تلاش کنید"
   },
+  "dashboardMenu": {
+    "dashboard": "داشبورد",
+    "settings": "تنظیمات",
+    "metaData": "داده های متا",
+    "appearance": "ظاهر",
+    "translations": "ترجمه‌ها"
+  },
+  "metaData": {
+    "faLabel": "فارسی",
+    "enLabel": "انگلیسی",
+    "deLabel": "آلمانی",
+    "metaTitle": "عنوان متا",
+    "metaDescription": "توضیحات متا",
+    "keywords": "کلمات کلیدی",
+    "authorName": "نام نویسنده",
+    "authorUrl": "آدرس نویسنده",
+    "saveChanges": "ذخیره تغییرات",
+    "metaDataUpdatedFor": "داده‌های متا برای زبان {locale} به‌روز شد.",
+    "saveFailed": "خطا در ذخیره داده‌های متا."
+  },
   "translationsManagement": {
     "title": "مدیریت ترجمه‌ها",
     "scopeLabel": "اسکوپ:",
@@ -31,12 +51,6 @@
     "noScope": "لطفا یک اسکوپ انتخاب کنید یا اسکوپ جدید بسازید.",
     "protectedScopeMessage": "این اسکوپ محافظت شده است و نمی‌تواند حذف شود.",
     "protectedScopeKeyMessage": "این کلید به یک اسکوپ محافظت شده تعلق دارد و نمی‌تواند حذف شود."
-  },
-  "dashboardMenu": {
-    "dashboard": "داشبورد",
-    "settings": "تنظیمات",
-    "appearance": "ظاهر",
-    "translations": "ترجمه‌ها"
   },
   "appearance": {
     "themeMode": "حالت تم",

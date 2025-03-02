@@ -15,7 +15,7 @@ import { useTranslations } from 'next-intl';
 
 const RADIUS = ['default', 0, 0.3, 0.5, 0.75, 1.0] as const;
 
-export function AppearanceSettings({ theme, radius }: ThemeConfig) {
+export function AppearanceForm({ theme, radius }: ThemeConfig) {
   const router = useRouter();
   const t = useTranslations('appearance');
 

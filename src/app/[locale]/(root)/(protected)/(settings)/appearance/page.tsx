@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { cookies } from 'next/headers';
 import type { ThemeConfig } from '@/types/theme';
 import { getTranslations } from 'next-intl/server';
-import { AppearanceSettings } from './_components/appearance-settings';
+import { AppearanceForm } from './_components/appearance-form';
 
 export default async function Appearance() {
   const t = await getTranslations('dashboardMenu');
@@ -25,7 +25,7 @@ export default async function Appearance() {
           </CardTitle>
         </CardHeader>
         <CardContent className='space-y-4'>
-          <AppearanceSettings theme={theme} radius={radius} />
+          <AppearanceForm theme={theme} radius={radius} />
         </CardContent>
       </Card>
     </>

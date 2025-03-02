@@ -8,6 +8,26 @@
     "unauthorized": "Unbefugt",
     "tryAgain": "Erneut versuchen"
   },
+  "dashboardMenu": {
+    "dashboard": "Armaturenbrett",
+    "settings": "Einstellungen",
+    "metaData": "Metadaten",
+    "appearance": "Aussehen",
+    "translations": "Übersetzungen"
+  },
+  "metaData": {
+    "faLabel": "Persisch",
+    "enLabel": "Englisch",
+    "deLabel": "Deutsch",
+    "metaTitle": "Meta-Titel",
+    "metaDescription": "Meta-Beschreibung",
+    "keywords": "Stichworte",
+    "authorName": "Autorname",
+    "authorUrl": "Autor-URL",
+    "saveChanges": "Änderungen speichern",
+    "metaDataUpdatedFor": "Metadaten aktualisiert für {locale}.",
+    "saveFailed": "Fehler beim Speichern der Metadaten."
+  },
   "translationsManagement": {
     "title": "Übersetzungsverwaltung",
     "scopeLabel": "Bereich:",
@@ -31,12 +51,6 @@
     "noScope": "Bitte wählen Sie einen Bereich aus oder erstellen Sie einen neuen.",
     "protectedScopeMessage": "Dieser Bereich ist geschützt und kann nicht gelöscht werden.",
     "protectedScopeKeyMessage": "Dieser Schlüssel gehört zu einem geschützten Bereich und kann nicht gelöscht werden."
-  },
-  "dashboardMenu": {
-    "dashboard": "Armaturenbrett",
-    "settings": "Einstellungen",
-    "appearance": "Aussehen",
-    "translations": "Übersetzungen"
   },
   "appearance": {
     "themeMode": "Themenmodus",

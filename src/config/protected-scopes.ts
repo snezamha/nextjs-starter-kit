@@ -1,6 +1,7 @@
 export const protectedScopes = [
   'notFound',
-  'translationsManagement',
   'dashboardMenu',
+  'metaData',
+  'translationsManagement',
   'appearance'
 ];

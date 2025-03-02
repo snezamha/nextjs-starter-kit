@@ -8,6 +8,26 @@
     "unauthorized": "Unauthorized",
     "tryAgain": "Try again"
   },
+  "dashboardMenu": {
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "metaData": "Meta Data",
+    "appearance": "Appearance",
+    "translations": "Translations"
+  },
+  "metaData": {
+    "faLabel": "Persian",
+    "enLabel": "English",
+    "deLabel": "German",
+    "metaTitle": "Meta Title",
+    "metaDescription": "Meta Description",
+    "keywords": "Keywords",
+    "authorName": "Author Name",
+    "authorUrl": "Author URL",
+    "saveChanges": "Save Changes",
+    "metaDataUpdatedFor": "Meta data updated for {locale}.",
+    "saveFailed": "Error saving meta data."
+  },
   "translationsManagement": {
     "title": "Translations Management",
     "scopeLabel": "Scope:",
@@ -31,12 +51,6 @@
     "noScope": "Please select a scope or create a new one.",
     "protectedScopeMessage": "This scope is protected and cannot be deleted.",
     "protectedScopeKeyMessage": "This key belongs to a protected scope and cannot be deleted."
-  },
-  "dashboardMenu": {
-    "dashboard": "Dashboard",
-    "settings": "Settings",
-    "appearance": "Appearance",
-    "translations": "Translations"
   },
   "appearance": {
     "themeMode": "Theme Mode",

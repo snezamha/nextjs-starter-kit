@@ -16,6 +16,11 @@ export const navItems: NavItem[] = [
     isActive: true,
     items: [
       {
+        title: 'metaData',
+        url: '/metadata',
+        icon: 'clarity:note-line' as keyof typeof Icon
+      },
+      {
         title: 'appearance',
         url: '/appearance',
         icon: 'ph:paint-brush-duotone' as keyof typeof Icon

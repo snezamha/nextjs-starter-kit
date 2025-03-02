@@ -14,16 +14,41 @@ import { cookies } from 'next/headers';
 import type { ThemeConfig } from '@/types/theme';
 import { cn } from '@/lib/utils';
 import { themes } from '@/config/themes';
+import { siteSettings } from '@/config/site';
 
 const rtlFont = localFont({ src: '../../assets/fonts/IRANSans.ttf' });
 const ltrFont = Inter({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: {
-    template: `%s | Nextjs Starter Kit`,
-    default: `Nextjs Starter Kit`
-  }
-};
+export async function generateMetadata({
+  params
+}: {
+  params: { locale: keyof typeof siteSettings };
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  return {
+    title: {
+      template: `%s | ${siteSettings[locale].metadata.title}`,
+      default: `${siteSettings[locale].metadata.title}`
+    },
+    description: siteSettings[locale].metadata.description,
+    keywords: siteSettings[locale].metadata.keywords,
+    authors: [
+      {
+        name: siteSettings[locale].metadata.authors[0].name,
+        url: siteSettings[locale].metadata.authors[0].url
+      }
+    ],
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true
+      }
+    }
+  };
+}
 
 export default async function RootLayout({
   children,
