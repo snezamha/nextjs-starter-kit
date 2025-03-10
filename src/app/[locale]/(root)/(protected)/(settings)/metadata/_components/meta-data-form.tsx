@@ -65,11 +65,17 @@ export default function MetaDataForm() {
           variant: 'default'
         });
       } else {
-        toast({ description: t('saveFailed'), variant: 'destructive' });
+        toast({
+          description: t('saveFailed'),
+          variant: 'destructive'
+        });
       }
     } catch (error) {
       console.error('Error saving settings:', error);
-      toast({ description: t('saveFailed'), variant: 'destructive' });
+      toast({
+        description: t('saveFailed'),
+        variant: 'destructive'
+      });
     }
   };
 
@@ -95,7 +101,10 @@ export default function MetaDataForm() {
           onChange={(e) =>
             setSettings({
               ...settings,
-              metadata: { ...settings.metadata, title: e.target.value }
+              metadata: {
+                ...settings.metadata,
+                title: e.target.value
+              }
             })
           }
           className='w-full'
@@ -109,7 +118,10 @@ export default function MetaDataForm() {
           onChange={(e) =>
             setSettings({
               ...settings,
-              metadata: { ...settings.metadata, description: e.target.value }
+              metadata: {
+                ...settings.metadata,
+                description: e.target.value
+              }
             })
           }
           className='w-full'

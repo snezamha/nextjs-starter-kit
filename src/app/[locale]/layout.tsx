@@ -16,7 +16,9 @@ import { cn } from '@/lib/utils';
 import { themes } from '@/config/themes';
 import { siteSettings } from '@/config/site';
 
-const rtlFont = localFont({ src: '../../assets/fonts/IRANSans.ttf' });
+const rtlFont = localFont({
+  src: '../../assets/fonts/IRANSans.ttf'
+});
 const ltrFont = Inter({ subsets: ['latin'] });
 
 export async function generateMetadata({
@@ -89,7 +91,9 @@ export default async function RootLayout({
         style={
           radius === 'default'
             ? {}
-            : ({ '--radius': `${radius}rem` } as React.CSSProperties)
+            : ({
+                '--radius': `${radius}rem`
+              } as React.CSSProperties)
         }
       >
         <NextTopLoader

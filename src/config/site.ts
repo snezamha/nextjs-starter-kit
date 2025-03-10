@@ -14,7 +14,7 @@ export const siteSettings = {
   },
   fa: {
     metadata: {
-      title: '',
+      title: 'پکیج استارت Next.js',
       description: '',
       keywords: [''],
       authors: [

@@ -32,7 +32,9 @@ export async function DELETE(request: Request) {
 
   if (protectedScopes.includes(scope)) {
     return NextResponse.json(
-      { error: 'This scope is protected and cannot be deleted.' },
+      {
+        error: 'This scope is protected and cannot be deleted.'
+      },
       { status: 403 }
     );
   }

@@ -31,7 +31,10 @@ export function DateTimePicker({
 
   const initialHours = date?.getHours() ?? 12;
   const initialMinutes = date?.getMinutes() ?? 0;
-  const [time, setTime] = useState<{ hours: number; minutes: number }>({
+  const [time, setTime] = useState<{
+    hours: number;
+    minutes: number;
+  }>({
     hours: initialHours,
     minutes: initialMinutes
   });

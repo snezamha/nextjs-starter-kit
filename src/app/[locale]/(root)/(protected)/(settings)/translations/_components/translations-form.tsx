@@ -354,7 +354,9 @@ export default function TranslationsForm() {
               })}
             </DialogTitle>
             <DialogDescription className='text-start'>
-              {t('enterNewKeyForLocale', { locale: localeForNewKey })}
+              {t('enterNewKeyForLocale', {
+                locale: localeForNewKey
+              })}
             </DialogDescription>
           </DialogHeader>
           <div className='my-2'>

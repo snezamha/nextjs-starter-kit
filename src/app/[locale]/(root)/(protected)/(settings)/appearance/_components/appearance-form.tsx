@@ -133,7 +133,9 @@ export function AppearanceForm({ theme, radius }: ThemeConfig) {
               style={
                 value === 'default'
                   ? {}
-                  : ({ '--radius': `${value}rem` } as React.CSSProperties)
+                  : ({
+                      '--radius': `${value}rem`
+                    } as React.CSSProperties)
               }
             >
               {value === 'default' ? t('default') : value}
