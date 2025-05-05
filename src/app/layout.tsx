@@ -5,7 +5,10 @@ import './globals.css';
 
 const vazir = Vazirmatn({
   subsets: ['arabic'],
+  display: 'swap',
   variable: '--font-vazir',
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -19,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fa">
+    <html lang="fa" dir="rtl">
       <body className={`${vazir.variable} font-sans antialiased`}>
         <DirectionProvider direction="rtl">{children}</DirectionProvider>
       </body>

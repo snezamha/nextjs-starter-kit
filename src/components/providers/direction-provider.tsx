@@ -4,7 +4,7 @@ import { DirectionProvider as RadixDirProvider } from '@radix-ui/react-direction
 
 const DirectionProvider = ({
   direction,
-  children
+  children,
 }: {
   direction: 'ltr' | 'rtl';
   children: React.ReactNode;
