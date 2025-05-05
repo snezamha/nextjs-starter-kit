@@ -19,9 +19,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='fa'>
+    <html lang="fa">
       <body className={`${vazir.variable} font-sans antialiased`}>
-        <DirectionProvider direction='rtl'>{children}</DirectionProvider>
+        <DirectionProvider direction="rtl">{children}</DirectionProvider>
       </body>
     </html>
   );
