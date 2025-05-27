@@ -1,0 +1,8 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen in ihrem dashboard",
+    "settings": "Einstellungen",
+    "appearance": "Erscheinungsbild"
+  }
+}

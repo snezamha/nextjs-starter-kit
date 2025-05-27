@@ -1,0 +1,16 @@
+{
+  "messages": {
+    "welcome": "Willkommen in unserem System"
+  },
+  "languages": {
+    "english": "Englisch",
+    "german": "Deutsch",
+    "persian": "Persisch"
+  },
+  "notFound": {
+    "somethingWentWrong": "Etwas ist schiefgelaufen",
+    "pageNotFound": "Die Seite, die Sie suchen, konnte nicht gefunden werden.",
+    "goBack": "Zurück",
+    "backToHome": "Zur Startseite"
+  }
+}

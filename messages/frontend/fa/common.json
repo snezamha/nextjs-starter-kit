@@ -1,0 +1,16 @@
+{
+  "messages": {
+    "welcome": "به سامانه ما خوش آمدید"
+  },
+  "languages": {
+    "english": "انگلیسی",
+    "german": "آلمانی",
+    "persian": "فارسی"
+  },
+  "notFound": {
+    "somethingWentWrong": "مشکلی پیش آمده است",
+    "pageNotFound": "صفحه مورد نظر شما یافت نشد.",
+    "goBack": "بازگشت",
+    "backToHome": "بازگشت به صفحه اصلی"
+  }
+}
