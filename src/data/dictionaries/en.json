@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "mainmenu": "Main Menu",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "language": {
+      "language": "Language",
+      "english": "English",
+      "persian": "Persian",
+      "german": "German"
+    },
+    "mode": {
+      "mode": "Mode",
+      "dark": "Dark",
+      "light": "Light",
+      "system": "System"
+    }
+  },
+  "search": {
+    "search": "Search...",
+    "noResults": "No results found.",
+    "typeCommand": "Type or search for a menu..."
+  },
+  "footer": {
+    "copyright": "Designed & Developed by: "
+  },
+  "customizer": {
+    "title": "Customizer",
+    "description": "Pick a style and color for the dashboard.",
+    "color": "Color",
+    "radius": "Radius",
+    "mode": "Mode",
+    "layout": "Layout",
+    "direction": "Direction",
+    "reset": "Reset",
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "ltr": "LTR",
+    "rtl": "RTL"
+  },
+  "pageTitle": {
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "profile": "Profile",
+    "analytics": "Analytics",
+    "reports": "Reports",
+    "tasks": "Tasks",
+    "calendar": "Calendar",
+    "messages": "Messages",
+    "notifications": "Notifications"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "We couldn't find the page you're looking for. It might have been moved or doesn't exist.",
+    "backToHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "welcome": {
+    "message": "Welcome to your application",
+    "startButton": "Start from here"
+  },
+  "settings": {
+    "general": {
+      "title": "General",
+      "metaData": {
+        "title": "Meta Data",
+        "description": "Update your general meta data details.",
+        "metaTitle": "Meta Title",
+        "metaDescription": "Meta Description",
+        "keywords": "Keywords",
+        "authorName": "Author Name",
+        "authorUrl": "Author URL",
+        "saveChanges": "Save Changes",
+        "metaDataUpdatedFor": "Meta data updated for {locale}",
+        "saveFailed": "Failed to save changes",
+        "faLabel": "Persian",
+        "enLabel": "English",
+        "deLabel": "German"
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "mainmenu": "منوی اصلی",
+    "dashboard": "داشبورد",
+    "settings": "تنظیمات",
+    "language": {
+      "language": "زبان",
+      "english": "انگلیسی",
+      "persian": "فارسی",
+      "german": "آلمانی"
+    },
+    "mode": {
+      "mode": "حالت",
+      "dark": "تیره",
+      "light": "روشن",
+      "system": "سیستم"
+    }
+  },
+  "search": {
+    "search": "جستجو...",
+    "noResults": "نتیجه‌ای یافت نشد.",
+    "typeCommand": "برای جستجو در منو تایپ کنید..."
+  },
+  "footer": {
+    "copyright": "طراحی و توسعه توسط: "
+  },
+  "customizer": {
+    "title": "شخصی‌سازی",
+    "description": "استایل و رنگ داشبورد را انتخاب کنید.",
+    "color": "رنگ",
+    "radius": "گردی گوشه‌ها",
+    "mode": "حالت",
+    "layout": "چیدمان",
+    "direction": "جهت",
+    "reset": "بازنشانی",
+    "horizontal": "افقی",
+    "vertical": "عمودی",
+    "ltr": "چپ به راست",
+    "rtl": "راست به چپ"
+  },
+  "pageTitle": {
+    "dashboard": "داشبورد",
+    "settings": "تنظیمات",
+    "profile": "پروفایل",
+    "analytics": "تحلیل‌ها",
+    "reports": "گزارش‌ها",
+    "tasks": "وظایف",
+    "calendar": "تقویم",
+    "messages": "پیام‌ها",
+    "notifications": "اعلان‌ها"
+  },
+  "notFound": {
+    "title": "صفحه مورد نظر یافت نشد",
+    "description": "ما نتوانستیم صفحه مورد نظر شما را پیدا کنیم. ممکن است منتقل شده باشد یا وجود نداشته باشد.",
+    "backToHome": "بازگشت به صفحه اصلی",
+    "goBack": "بازگشت"
+  },
+  "welcome": {
+    "message": "به برنامه خودتان خوش آمدید",
+    "startButton": "از اینجا شروع کنید"
+  },
+  "settings": {
+    "general": {
+      "title": "عمومی",
+      "metaData": {
+        "title": "متادیتا",
+        "description": "اطلاعات متادیتای عمومی خود را به‌روزرسانی کنید.",
+        "metaTitle": "عنوان متا",
+        "metaDescription": "توضیحات متا",
+        "keywords": "کلمات کلیدی",
+        "authorName": "نام نویسنده",
+        "authorUrl": "آدرس نویسنده",
+        "saveChanges": "ذخیره تغییرات",
+        "metaDataUpdatedFor": "متادیتا برای {locale} به‌روزرسانی شد",
+        "saveFailed": "ذخیره تغییرات ناموفق بود",
+        "faLabel": "فارسی",
+        "enLabel": "انگلیسی",
+        "deLabel": "آلمانی"
+      }
+    }
+  }
+}

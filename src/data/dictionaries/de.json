@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "mainmenu": "Hauptmenü",
+    "dashboard": "Dashboard",
+    "settings": "Einstellungen",
+    "language": {
+      "language": "Sprache",
+      "english": "Englisch",
+      "persian": "Persisch",
+      "german": "Deutsch"
+    },
+    "mode": {
+      "mode": "Modus",
+      "dark": "Dunkel",
+      "light": "Hell",
+      "system": "System"
+    }
+  },
+  "search": {
+    "search": "Suchen...",
+    "noResults": "Keine Ergebnisse gefunden.",
+    "typeCommand": "Geben Sie ein oder suchen Sie nach einem Menü..."
+  },
+  "footer": {
+    "copyright": "Entworfen & Entwickelt von: "
+  },
+  "customizer": {
+    "title": "Anpasser",
+    "description": "Wählen Sie einen Stil und eine Farbe für das Dashboard.",
+    "color": "Farbe",
+    "radius": "Radius",
+    "mode": "Modus",
+    "layout": "Layout",
+    "direction": "Richtung",
+    "reset": "Zurücksetzen",
+    "horizontal": "Horizontal",
+    "vertical": "Vertikal",
+    "ltr": "LTR",
+    "rtl": "RTL"
+  },
+  "pageTitle": {
+    "dashboard": "Dashboard",
+    "settings": "Einstellungen",
+    "profile": "Profil",
+    "analytics": "Analysen",
+    "reports": "Berichte",
+    "tasks": "Aufgaben",
+    "calendar": "Kalender",
+    "messages": "Nachrichten",
+    "notifications": "Benachrichtigungen"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Wir konnten die gesuchte Seite nicht finden. Sie wurde möglicherweise verschoben oder existiert nicht.",
+    "backToHome": "Zur Startseite",
+    "goBack": "Zurück"
+  },
+  "welcome": {
+    "message": "Willkommen in Ihrer Anwendung",
+    "startButton": "Von hier aus starten"
+  },
+  "settings": {
+    "general": {
+      "title": "Allgemein",
+      "metaData": {
+        "title": "Metadaten",
+        "description": "Aktualisieren Sie Ihre allgemeinen Metadaten.",
+        "metaTitle": "Meta-Titel",
+        "metaDescription": "Meta-Beschreibung",
+        "keywords": "Schlüsselwörter",
+        "authorName": "Autorenname",
+        "authorUrl": "Autoren-URL",
+        "saveChanges": "Änderungen speichern",
+        "metaDataUpdatedFor": "Metadaten für {locale} aktualisiert",
+        "saveFailed": "Speichern fehlgeschlagen",
+        "faLabel": "Persisch",
+        "enLabel": "Englisch",
+        "deLabel": "Deutsch"
+      }
+    }
+  }
+}

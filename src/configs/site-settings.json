@@ -1,0 +1,41 @@
+{
+  "fa": {
+    "metadata": {
+      "title": "2",
+      "description": "",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ]
+    }
+  },
+  "en": {
+    "metadata": {
+      "title": "Next.js Starter Kit",
+      "description": "",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ]
+    }
+  },
+  "de": {
+    "metadata": {
+      "title": "Next.js Starter Kit",
+      "description": "",
+      "keywords": [],
+      "authors": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ]
+    }
+  }
+}
